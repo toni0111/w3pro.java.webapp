@@ -3,14 +3,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId></groupId>
-    <artifactId>jservlet</artifactId>
+    <artifactId>jwebapp</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
     <name>jServlets</name>
     <description>Servlets AND JSPs</description>
 
     <build>
-        <outputDirectory>${webappDirectory}/WEB-INF/classes</outputDirectory>
+        <outputDirectory>/WEB-INF/classes</outputDirectory>
 
         <resources>
             <resource>
@@ -36,7 +36,7 @@
                     <webappDirectory>${webappDirectory}</webappDirectory>
                     <webResources>
                         <resource>
-                            <directory>/</directory>
+                            <directory>/WEB-INF</directory>
                             <targetPath>WEB-INF</targetPath>
                         </resource>
                     </webResources>
