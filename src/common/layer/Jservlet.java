@@ -21,7 +21,7 @@ public class Jservlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
                    throws ServletException, IOException {
               	
-			ServletOutputStream out=response.getOutputStream();
+			ServletOutputStream out = response.getOutputStream();
 			out.println("Hola mundo, Servlet!");
 			out.flush();
 			out.close();
