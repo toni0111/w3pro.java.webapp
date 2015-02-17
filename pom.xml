@@ -2,28 +2,19 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.arcbees.github</groupId>
-    <artifactId>github-tools</artifactId>
+    <groupId></groupId>
+    <artifactId>jservlet</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
-    <name>ArcBees GitHub Tools</name>
-    <description>Notify github when pull is built</description>
-
-    <properties>
-        <tomcat.path>/github-tools</tomcat.path>
-        <tomcat-maven-plugin.version>2.0</tomcat-maven-plugin.version>
-        <maven.war.plugin>2.3</maven.war.plugin>
-        <maven-deploy-plugin.version>2.7</maven-deploy-plugin.version>
-        
-        <webappDirectory>${project.build.directory}/${project.build.finalName}</webappDirectory>
-    </properties>
+    <name>jServlets</name>
+    <description>Servlets AND JSPs</description>
 
     <build>
         <outputDirectory>${webappDirectory}/WEB-INF/classes</outputDirectory>
 
         <resources>
             <resource>
-                <directory>src/main/resources</directory>
+                <directory>/src/</directory>
             </resource>
         </resources>
 
